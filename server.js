@@ -15,6 +15,7 @@ dotenv.config({ path: `${__dirname}/config/config.env` });
 
 // ROUTE FILE
 const result = require("./routes/resultRouter")
+const checkHealth = require("./routes/checkHealthRouter");
 
 // BODY PARSER
 app.use(express.json());
@@ -55,6 +56,7 @@ app.use(cors())
 
 // MOUNT ROUTER
 app.use("/api/googleResult",result)
+app.use("/api/checkHealth",checkHealth)
 
 app.use(errorHandler);
 
