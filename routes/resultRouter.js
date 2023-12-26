@@ -5,6 +5,6 @@ const {getResults}= require("../controller/resultController")
 
 router
   .route("/")
-  .get(getResults);
+  .post(getResults);
 
   module.exports = router;
