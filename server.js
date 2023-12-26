@@ -1,6 +1,5 @@
 const express = require("express");
 const dotenv = require("dotenv");
-const morgan = require("morgan");
 const mongoSanitize = require('express-mongo-sanitize');
 const helmet = require('helmet')
 const rateLimit = require('express-rate-limit')
@@ -22,6 +21,7 @@ app.use(express.json());
 
 // DEV LOGGING MIDDLEWARE
 if (process.env.NODE_ENV === "development") {
+  const morgan = require("morgan");
   app.use(morgan("dev"));
 }
 
