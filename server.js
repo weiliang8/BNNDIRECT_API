@@ -54,6 +54,10 @@ app.use(hpp())
 // ENABLE CORS
 app.use(cors())
 
+app.options('/*', (_, res) => {
+  res.sendStatus(200);
+});
+
 // MOUNT ROUTER
 app.use("/api/googleResult",result)
 app.use("/api/checkHealth",checkHealth)
