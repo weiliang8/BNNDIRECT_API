@@ -52,7 +52,7 @@ app.use(limiter)
 app.use(hpp())
 
 // ENABLE CORS
-//app.use(cors())
+app.use(cors())
 
 // MOUNT ROUTER
 app.use("/api/googleResult",result)
