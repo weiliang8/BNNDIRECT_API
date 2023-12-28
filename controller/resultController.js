@@ -26,6 +26,8 @@ exports.getResults = asyncHandler(async (req, res, next) => {
         result.url = data.items[0].link;
         result.thumbnail = data.items[0].pagemap.cse_image[0].src
       }
+      res.header('Access-Control-Allow-Origin', 'https://www.bloomberg.com');
+      res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
       return res.status(200).json({
         success: true,
         totalResultCount,
