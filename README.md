@@ -13,5 +13,6 @@ BNNDirect API serves as the middleman to connect chrome extension BNNDirect to t
 3. Create config.env .....
 
 ## API Endpoints
-| HTTP Request | Endpoint | Action |
-||
+| HTTP Request | Endpoint | Header | Action |
+|--------------|:---------:|----------|--------------|
+|        'Content-Type': 'application/json',|
