@@ -7,11 +7,11 @@ BNNDirect API serves as the middleman to connect chrome extension BNNDirect to t
 * Provides Cross-Origin Resource Sharing (CORS), so the server able to receive request from chrome extension
 * Communicate with GoogleSearch API to fetch article result
 * Security:
-  1. Sanitize data using express-mongo-sanitize
-  2. Set various security headers to increase application security using helmet
-  3. Prevent cross site scripting attack using perfect-express-sanitizer
-  4. Prevent HTTP parameter pollution attack using hpp
-  5. Rate Limiting
+ 1. Sanitize data using express-mongo-sanitize
+ 2. Set various security headers to increase application security using helmet
+ 3. Prevent cross site scripting attack using perfect-express-sanitizer
+ 4. Prevent HTTP parameter pollution attack using hpp
+ 5. Rate Limiting
 
 
 
