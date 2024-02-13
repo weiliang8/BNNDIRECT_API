@@ -1,4 +1,4 @@
-# BNNDirect API ![alt text](https://github.com/weiliang8/BNNDirect/blob/master/assert/icons/icon32.png "BNNDirect")
+why# BNNDirect API ![alt text](https://github.com/weiliang8/BNNDirect/blob/master/assert/icons/icon32.png "BNNDirect")
 
 ## Introduction
 BNNDirect API serves as the middleman to connect chrome extension BNNDirect to third-party GoogleSearch API
@@ -15,4 +15,4 @@ BNNDirect API serves as the middleman to connect chrome extension BNNDirect to t
 ## API Endpoints
 | HTTP Request | Endpoint | Header | Action |
 |--------------|:---------:|----------|--------------|
-|        'Content-Type': 'application/json',|
+|||        'Content-Type': 'application/json'|
