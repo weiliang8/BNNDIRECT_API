@@ -17,8 +17,8 @@ BNNDirect API serves as the middleman to connect chrome extension BNNDirect to t
 
 ## Installation
 1. Clone this repository
-2. Run **npm i** to install all dependcies
-3. Create config.env .....
+2. Run ```npm i``` to install all dependcies
+3. Rename ```config.env.env``` to ```config.env``` and replace 
 
 ## API Endpoints
 | HTTP Request | Endpoint | Header | Body | Action |
