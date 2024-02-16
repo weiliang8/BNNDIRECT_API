@@ -22,6 +22,6 @@ BNNDirect API serves as the middleman to connect chrome extension BNNDirect to t
 
 ## API Endpoints
 | HTTP Request | Endpoint | Header | Body | Action |
-|--------------|:---------:|----------|--------------|--------------|
+|:------------:|:--------:|:------:|:----:|:------:|
 | POST | /api/googleResult |        'Content-Type': 'application/json'| String(AricleTitle) | Retrieve corresponding Article Url |
 | GET | /api/checkHealth | - | - |  API hosting platform to monitor the API status |
