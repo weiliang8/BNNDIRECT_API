@@ -19,10 +19,10 @@ BNNDirect API serves as the middleman to connect chrome extension BNNDirect to t
 1. Clone this repository
 2. Run ```npm i``` to install all dependencies
 3. Rename ```config.env.env``` to ```config.env``` and key in
-   1. **Custom_Search_API_Key**:
+   1. **Custom_Search_API_Key**
       * Obtain from https://programmablesearchengine.google.com/controlpanel/all
       * Search specific sites or pages: www.bnnbloomberg.ca/
-   3. **Search_Engine_ID**:
+   3. **Search_Engine_ID**
       * Obtain from https://developers.google.com/custom-search/v1/overview
 
       
