@@ -4,7 +4,7 @@
 BNNDirect API serves as the middleman to connect chrome extension BNNDirect to third-party GoogleSearch API
 
 ## Features
-* Provides Cross-Origin Resource Sharing (CORS), so the server able to receive request from chrome extension
+* Provides Cross-Origin Resource Sharing (CORS) to allow server to receive request from chrome extension
 * Communicate with GoogleSearch API to fetch article result
 * Security:
     1. Sanitize data using express-mongo-sanitize
