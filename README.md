@@ -1,7 +1,7 @@
 # BNNDirect API ![alt text](https://github.com/weiliang8/BNNDirect/blob/master/assert/icons/icon32.png "BNNDirect")
 
 ## Introduction
-BNNDirect API serves as the API proxy to connect client ([chrome extension BNNDirect](https://github.com/weiliang8/BNNDirect/)) to API third-party GoogleSearch
+BNNDirect API serves as the API proxy to connect [chrome extension BNNDirect](https://github.com/weiliang8/BNNDirect/) client to API third-party GoogleSearch
 
 ## Features
 * Provides Cross-Origin Resource Sharing (CORS) to allow server to receive request from chrome extension
